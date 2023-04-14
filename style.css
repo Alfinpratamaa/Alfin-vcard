@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(45deg, #67d1b9, #e6a7c1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kartu-nama {
+  background: linear-gradient(45deg, #e6a7c1, #67d1b9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  overflow: hidden;
+}
+.m {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.foto img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.data-diri {
+  padding: 20px;
+}
+
+.data-diri h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.data-diri p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.sosial-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sosial-media a {
+  margin: 0 10px;
+}
+
+.sosial-media img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media queries untuk perangkat mobile */
+@media (max-width: 767px) {
+  .kartu-nama {
+    width: 90%;
+  }
+}
+
+/* Media queries untuk perangkat tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .kartu-nama {
+    width: 70%;
+  }
+}
+
+/* Media queries untuk perangkat laptop dan PC */
+@media (min-width: 1024px) {
+  .kartu-nama {
+    width: 50%;
+  }
+}
